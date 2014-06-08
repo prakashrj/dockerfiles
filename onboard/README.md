@@ -1,4 +1,5 @@
 
-1. Install git package and clone git to get the documentation setup development environment.
+1. Install git package and clone your git repo.
 
-2. Install boot2docker and Virtual box on the operating system you will be working on.
+2. Install boot2docker and Virtual box on host OS you have access to.
+
