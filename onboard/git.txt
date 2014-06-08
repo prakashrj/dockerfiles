@@ -1,5 +1,8 @@
+# Setup your github account
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
 
-# Firt clone your repo
+# Clone your repo
 git clone https://github.com/prakashrj/dockerfiles.git 
 
 # Adds the files in the local repository and stages them for commit
@@ -8,13 +11,16 @@ git add .
 # Commits the tracked changes and prepares them to be pushed to a remote repository
 git commit -m 'First commit'
 
-# Sets the new remote
-git remote add origin <remote repository URL>
-
 # Verifies the new remote URL
 git remote -v
 
 # Pushes the changes in your local repository up to the remote repository you specified as the origin
 git push origin master
+
+
+
+
+# Sets the new remote. Will be useful when you collaborate on another project
+git remote add origin <remote repository URL>
 
 
