@@ -1,5 +1,5 @@
 
-Different ways to create a development environment. Place to save your .rc files etc.
+Different ways to create a development environment. Place to save .rc files etc.
 
 1. Install git package and clone your git repo.
 
